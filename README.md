@@ -1,0 +1,3 @@
+# Unhandled Exception in Asynchronous Dart Operation
+
+This repository demonstrates a common issue in Dart asynchronous programming: an unhandled exception within an asynchronous operation. The code attempts to fetch data from an API, but if an error occurs, the exception is rethrown without proper handling, potentially leading to crashes or unexpected behavior.  The solution shows how to better manage this using `catchError` or improved error handling.
